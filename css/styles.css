@@ -61,7 +61,7 @@ body{
         background-color: rgb(237, 252, 252);
         border-radius: 1em;
     }
-        .tarea{
+        #tarea{
             display: flex;
             width: 95%;
             height: 10%;
