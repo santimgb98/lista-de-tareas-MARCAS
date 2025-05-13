@@ -1,0 +1,13 @@
+            <div id="tarea">
+                <p id="input_tarea"></p>
+                <button id="btn_completada" class="btn">✔️</button>
+                <button id="btn_eliminar" class="btn">✖️</button>
+                <button id="btn_desmarcar" class="btn">➖</button>
+            </div>
+
+
+            $("contenido").clone(true).append(tarea);
+
+            $(tarea).clone(true).append("<button id='btn_completada' class='btn'>✔️</button>")
+            $(tarea).clone(true).append("<button id='btn_eliminar' class='btn'>✖️</button>")
+            $(tarea).clone(true).append("<button id='btn_desmarcar' class='btn'>➖</button>")

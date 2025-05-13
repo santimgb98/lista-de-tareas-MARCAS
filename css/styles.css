@@ -1,33 +1,39 @@
 body{
     margin: 0;
-    background-size: cover;
+    position: static;
+    
+    background-size:100%;
+
 }
 #cuadro_principal{
     width: 50%;
     height: 80%;
-    background-color: antiquewhite;
+    background: url("../photos/allEnemies.png");
     border-radius: 1em;
+
+    box-shadow: 10px 10px 10px 10px rgb(0, 3, 46);
 
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 70%;
     transform: translate(-50%, -50%);
 
     text-align: center;
 }
     #titulo{
         font-size: 4em;
+        color: white;
     }
     #contenido_add{
         width: 80%;
         height: 10%;
 
         position: absolute;
-        top: 22%;
+        top: 25%;
         left: 50%;
         transform: translate(-50%, -50%);
 
-        background-color: rgb(237, 252, 252);
+        background-color: rgb(255, 255, 255);
         border-radius: 1em;
         align-items: center;
 
@@ -39,6 +45,7 @@ body{
             height: 60%;
             margin-left: 5%;
             border-radius: 1em;
+            font-size: 150%;
         }
         #btn_add{
             height: 50%;
@@ -58,24 +65,27 @@ body{
         left: 50%;
         transform: translate(-50%, -50%);
 
-        background-color: rgb(237, 252, 252);
+        background-color: rgb(255, 255, 255);
         border-radius: 1em;
+
     }
-        #tarea{
+        .tarea{
             display: flex;
             width: 95%;
             height: 10%;
 
             margin: 1em;
             border-radius: 1em;
-            background-color: antiquewhite;
+            background-color: rgb(20, 36, 67);
 
             align-items: center;
         }
-        .btn:hover{
-            transform: scale(1.2);
+        .tarea:hover{
+            transform: scale(1.01);
         }
-            #input_tarea{
+            .input_tarea{
+                color:white;
+                font-size: 120%;
                 height: 70%;
                 width: 70%;
                 margin-left: 1em;
@@ -91,10 +101,10 @@ body{
 
                 border-radius: 1em;
             }
-            #btn_completada{
+            .btn_completada{
                 background: rgb(227, 255, 221);
             }
-            #btn_eliminar{
+            .btn_eliminar{
                 background: rgb(255, 221, 221);
             }
         #btn_add_tarea{
@@ -102,4 +112,12 @@ body{
             height: 5%;
             border-color: rgb(230, 219, 219);
             border-radius: 1em;
+        }
+
+
+
+
+        #gif{
+            margin-top: 46%;
+            width: 2%;
         }
