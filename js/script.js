@@ -31,7 +31,7 @@ $(document).ready(() => {
         // Botón COMPLETADA
         $nuevaTarea.find(".btn_completada").click(function() {
             $(this).closest(".tarea").css("background", "rgb(126, 255, 79)");
-            $(this).css("background", "rgb(144, 239, 80)");
+            $(this).css("background", "rgb(184, 239, 147)");
         });
 
         // Botón ELIMINAR

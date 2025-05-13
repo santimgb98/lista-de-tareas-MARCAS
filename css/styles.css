@@ -76,13 +76,11 @@ body{
 
             margin: 1em;
             border-radius: 1em;
-            background-color: rgb(20, 36, 67);
+            background-color: rgb(2, 9, 26);
 
             align-items: center;
         }
-        .tarea:hover{
-            transform: scale(1.01);
-        }
+        
             .input_tarea{
                 color:white;
                 font-size: 120%;
@@ -100,6 +98,9 @@ body{
                 margin-right: 1em;
 
                 border-radius: 1em;
+            }
+            .btn:hover{
+                transform: scale(1.1);
             }
             .btn_completada{
                 background: rgb(227, 255, 221);
